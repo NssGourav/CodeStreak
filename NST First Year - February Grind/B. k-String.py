@@ -1,4 +1,4 @@
-def string(k, s):
+def strings(k, s):
     freq = {}
     for char in s:
         if char in freq:
@@ -16,4 +16,4 @@ def string(k, s):
 
 k = int(input().strip()) 
 s = input().strip()      
-print(string(k,s))
+print(strings(k,s))

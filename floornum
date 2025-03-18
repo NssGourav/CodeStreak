@@ -1,0 +1,11 @@
+
+def floor(n, x):
+    if n <= 2:
+        return 1
+    else:
+        return 1 + (n - 2 + x - 1) // x
+ 
+t = int(input())
+for _ in range(t):
+    n, x = map(int, input().split())
+    print(floor(n, x))
